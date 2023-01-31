@@ -1,1 +1,80 @@
+1. What are escape characters, and how do you use them?
+Ans:-
+Escape charectors are charectors that are used to change the interpretation of of charectors that follows them ,
+they add special meaning for immedetly followed charectors , some of excape charectors are as below.
+'\n' new line charectors
+'\r' carrige return charector
+'\t' tab charectors
+'\'' single quote charector
+'\"' double quote charector
+'\\' backslash charectors
+and many more
+
+2. What do the escape characters n and t stand for?
+Ans:-
+in escape charectors , n stands for next line charector , while t stands for tab charector
+
+3. What is the way to include backslash characters in a string?
+Ans:-
+To use backslash in string we can escape with another backslash as below .
+print("this is my backslash: \\") 
+ and output will be - this is my backslash: \
+ 
+ 4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+ Ans:-
+ Beacuse we double quoted the whole string which make python enable to read the data and understand that used single quote on used as epostrophy not a single 
+ quote. Other type of quote make python easy to understand string.
+ 
+ 5. How do you write a string of newlines if you don't want to use the n character?
+Ans:-
+We can write a string without using '\'' we can use line countieuation charectors '\' and concatanation oprators'+' is most programming language.
+
+6. What are the values of the given expressions?
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3:]
+Ans:- For running above function output are as below.
+e
+Hello
+Hello
+'lo, world!'
+
+7. What are the values of the following expressions?
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+Ans:- After running above code output are as below.
+HELLO
+True
+hello
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+
+Ans:-
+By running above expression outpur will be as below .
+'There-can-only-one.'
+here we are running first string then split that string and then join with (-)
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans:-
+In python we can use rjust() and ljust and center for justify a string , in python as below.
+
+string="           hello"
+string.ljust()
+string.rjust()
+string.center()
+
+10. What is the best way to remove whitespace characters from the start or end?
+Ans:-
+We can use strip() function in python to remove whitespace charectors from start to end.
+as like -
+string="this is rajendra pandey      "
+string.strip()
+
+
+
+
 
